@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 (
 		/* 1. features = "C:\\Users\\info\\eclipse-workspace\\CRM_Maven\\src\\main\\java\\com\\feature\\LoginCRM.feature"*/
 	
-		features = "C:\\Users\\info\\eclipse-workspace\\CRM_Maven\\src\\main\\java\\com\\feature\\ContactsCRM.feature",
+		features = "C:\\Users\\info\\eclipse-workspace\\CRM_CucumberBDD_Maven\\src\\main\\java\\com\\feature\\ContactsCRM.feature",
 		glue = {"com.stepdefinitions"},
 		plugin = {"pretty","html:test-output"},
 		monochrome=true, // to display console in  readable output

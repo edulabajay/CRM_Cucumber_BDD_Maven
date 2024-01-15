@@ -1,6 +1,6 @@
 
 
-# One Feature contains one or more than one scenarios
+# One .Feature file contains one or more than one scenarios
 
   Feature: Login Functionality
   As a user
@@ -22,7 +22,7 @@
     When the user clicks on the "Forgot Password" link
     Then the user should be redirected to the password recovery page
  
- #one .Feature file contains one or more than one Feature file  
+ #one .Feature file contains one or more than one Feature 
    
   Feature: Login Functionality
   As a user

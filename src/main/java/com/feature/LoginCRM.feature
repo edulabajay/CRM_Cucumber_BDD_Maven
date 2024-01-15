@@ -9,6 +9,8 @@ Feature: Free CRM Login Feature Test
   #And User should be on home page
   #Then close the browser
   
+  
+  
   Scenario Outline: Free CRM Login Test Scenario
     Given User should be on login page
     When Title of login page is Free CRM
@@ -21,3 +23,6 @@ Feature: Free CRM Login Feature Test
       | username                    | password  |
       | naveek                      | test@123  |
       | ajaybalajikadam69@gmail.com | edulab321 |
+
+      
+      
